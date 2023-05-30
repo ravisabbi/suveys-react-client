@@ -1,0 +1,68 @@
+@import '_colors';
+$tabcolor:#637381;
+
+.sidebar-container{
+    width: 20%;
+    border-right: 2px dotted #E8EBEF;
+    height: 100vh;
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    
+}
+
+.profile-container{
+    background-color: $lightGrey;
+    height:100px;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 35px;
+
+}
+.user-profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.sidebar-text{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: $tabcolor;
+    flex-grow: 1;
+}
+
+.sidebar-item{
+    
+   height: 60px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+     justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 15px;
+
+}
+.active-tab{
+    background-color: $lightGrey;
+}
+.active-tab-text{
+     
+    color: #212B36;
+}
+
+.sidebar-icon{
+    color: $tabcolor;
+}
+

@@ -1,0 +1,54 @@
+@import "_colors.scss";
+
+.not-found-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.not-found-heading{
+    color: $secondary;
+    font-family: 'Sarif';
+    font-size: 20px;
+    font-weight: 800;
+}
+.not-found-description{
+    color:#968283;
+    font-family: 'Sarif';
+    font-size: 12px;
+    text-align: center;
+    width: 500px;
+    margin-top: 0px;
+}
+.not-found-home-btn{
+    background-color: $primary;
+    color: $white;
+    font-size: 14px;
+    height: 30px;
+    width: 140px;
+    font-weight: 900;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+
+
+}
+.not-found-image{
+    width: 400px;
+}
+
+@media screen and (min-width:700px) {
+    .not-found-heading{
+        font-size: 35px;
+    }
+    .not-found-description{
+        font-size: 18px;
+    }
+    .not-found-image{
+        width: 700px;
+    }
+}

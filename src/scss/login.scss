@@ -1,0 +1,138 @@
+@import '_colors';
+
+.login-container{
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-input-element-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+
+}
+.login-input-label{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 600;
+    color: $secondary;
+    margin-bottom: 5px;
+
+}
+.login-field{
+    outline: none;
+    border: 2px solid $secondary;
+    width: 100%;
+    height: 18px;
+    font-family: "Roboto";
+    color: $secondary;
+    font-size: 12px;
+    border-radius: 6px;
+
+     
+}
+
+.login-submit-btn{
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    border: 0px solid none;
+    border-width: 0px;
+    background-color: 6px;
+    background-color: $info;
+    color: $white;
+    font-family: 'Roboto';
+    align-self: center;
+}
+ 
+.error{
+    font-family: "Roboto";
+    font-size: 12px;
+    color: $danger;
+   
+    margin-bottom: -16px;
+    
+}
+ 
+ 
+              
+.login-heading{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: $info; 
+    align-self: center;
+    text-decoration: underline;
+}
+.login-image-container{
+    display: none;
+
+}
+
+.login-form{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;  
+}
+
+.login-heading{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: $info; 
+    align-self: center;
+    text-decoration: underline;
+}
+
+$breakpoint-tablet: 700px;
+@media (min-width: $breakpoint-tablet) {
+    .login-container{
+        flex-direction: row;
+        justify-content: space-around;
+      
+    }
+  .login-form{
+    width: 30%;
+    height: 30%;
+  }
+  .login-field{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+  }
+  .login-heading{
+    font-size: 22px;
+  }
+  .login-input-label{
+    font-size: 16px;
+  }
+  .login-submit-btn{
+    height: 30px;
+    width: 90px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .login-image-container{
+    display: flex;
+    width: 50%;
+    height: 55%;
+  }
+  .login-image{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+}

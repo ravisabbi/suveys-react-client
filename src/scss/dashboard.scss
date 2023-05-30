@@ -1,0 +1,96 @@
+@import '_colors.scss';
+.dashboard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.admin-table-container{
+    padding-left: 10px;
+    margin: 10px;
+    height: 100vh;
+    flex-grow: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banned-btn{
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #C24851;
+    background-color:#F7D9DC;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    height: 20px;
+    cursor: pointer;
+}
+.active-btn{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    color: #599D21;
+    background-color:#DFF6DE;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    cursor: pointer;
+     
+}
+.completed-text{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    color: #599D21;
+}
+.pending-text{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 700;
+    color: #C24851;
+}
+
+.welcome-heading{
+    font-family: "sarif";
+    font-size: 20px;
+    color: $secondary;
+    margin-bottom: 20px;
+}
+.add-user-btn{
+    font-family: "sarif";
+    font-size: 13px;
+    color: $white;
+    background-color: $primary;
+    border: none;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 900;
+    
+}
+.add-user-search-element-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.search-element{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto';
+    border:none;
+    outline: none;
+    color: $secondary;
+
+}
+.search-input-container{
+    width: 40%;
+    height: 35px;
+    border: 2px solid #ECEFF1;
+    border-radius: 8px;
+}

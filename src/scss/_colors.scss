@@ -1,0 +1,33 @@
+$primary:#017AFD;
+$secondary:#6C757D;
+$success:#5DA847;
+$danger:#DD4345;
+$warning:#F8C12B;
+$info:#4AA3B9;
+$light:#F8F9FA;
+$dark:#343A40;
+$white:#FFFFFF;
+$lightGrey:#ECEFF1;
+
+.apiErrorMsg{
+    font-size: 12px;
+    color: $danger;
+    font-family: "Roboto";
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dasboard-card{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
